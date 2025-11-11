@@ -1,0 +1,154 @@
+{
+  "fa": [
+    {
+      "name": "dir",
+      "purpose": "نمایش لیست فایل‌ها و پوشه‌های موجود",
+      "example": "dir",
+      "type": "CMD"
+    },
+    {
+      "name": "cd",
+      "purpose": "تغییر مسیر شاخه جاری",
+      "example": "cd C:\\Users",
+      "type": "CMD"
+    },
+    {
+      "name": "cls",
+      "purpose": "پاک کردن صفحه خط فرمان",
+      "example": "cls",
+      "type": "CMD"
+    },
+    {
+      "name": "copy",
+      "purpose": "کپی کردن فایل‌ها از مسیری به مسیر دیگر",
+      "example": "copy file.txt D:\\Backup",
+      "type": "CMD"
+    },
+    {
+      "name": "move",
+      "purpose": "انتقال فایل‌ها به مسیر دیگر",
+      "example": "move file.txt D:\\Data",
+      "type": "CMD"
+    },
+    {
+      "name": "del",
+      "purpose": "حذف فایل",
+      "example": "del file.txt",
+      "type": "CMD"
+    },
+    {
+      "name": "mkdir",
+      "purpose": "ایجاد پوشه جدید",
+      "example": "mkdir NewFolder",
+      "type": "CMD"
+    },
+    {
+      "name": "rmdir",
+      "purpose": "حذف پوشه",
+      "example": "rmdir OldFolder",
+      "type": "CMD"
+    },
+    {
+      "name": "ipconfig",
+      "purpose": "نمایش تنظیمات شبکه و آی‌پی",
+      "example": "ipconfig /all",
+      "type": "CMD"
+    },
+    {
+      "name": "ping",
+      "purpose": "تست اتصال به آدرس شبکه",
+      "example": "ping google.com",
+      "type": "CMD"
+    },
+    {
+      "name": "tracert",
+      "purpose": "نمایش مسیر ارسال بسته‌های شبکه",
+      "example": "tracert google.com",
+      "type": "CMD"
+    },
+    {
+      "name": "netstat",
+      "purpose": "نمایش وضعیت پورت‌ها و ارتباطات شبکه",
+      "example": "netstat -an",
+      "type": "CMD"
+    },
+    {
+      "name": "tasklist",
+      "purpose": "نمایش لیست برنامه‌های در حال اجرا",
+      "example": "tasklist",
+      "type": "CMD"
+    },
+    {
+      "name": "taskkill",
+      "purpose": "بستن برنامه‌ها با شناسه",
+      "example": "taskkill /PID 1234 /F",
+      "type": "CMD"
+    },
+    {
+      "name": "systeminfo",
+      "purpose": "نمایش اطلاعات سیستم",
+      "example": "systeminfo",
+      "type": "CMD"
+    },
+    {
+      "name": "shutdown",
+      "purpose": "خاموش یا ری‌استارت کردن سیستم",
+      "example": "shutdown /r /t 0",
+      "type": "CMD"
+    },
+    {
+      "name": "Get-ChildItem",
+      "purpose": "نمایش لیست فایل‌ها و پوشه‌ها (مشابه dir)",
+      "example": "Get-ChildItem C:\\",
+      "type": "PowerShell"
+    },
+    {
+      "name": "Set-Location",
+      "purpose": "تغییر مسیر پوشه کاری (مشابه cd)",
+      "example": "Set-Location C:\\Users",
+      "type": "PowerShell"
+    },
+    {
+      "name": "Get-Content",
+      "purpose": "خواندن محتوای فایل",
+      "example": "Get-Content file.txt",
+      "type": "PowerShell"
+    },
+    {
+      "name": "Get-Process",
+      "purpose": "نمایش لیست پردازش‌های فعال",
+      "example": "Get-Process",
+      "type": "PowerShell"
+    },
+    {
+      "name": "Stop-Process",
+      "purpose": "متوقف کردن پردازش با شناسه یا نام",
+      "example": "Stop-Process -Name notepad",
+      "type": "PowerShell"
+    },
+    {
+      "name": "Get-Service",
+      "purpose": "نمایش سرویس‌های ویندوز",
+      "example": "Get-Service",
+      "type": "PowerShell"
+    },
+    {
+      "name": "Start-Service",
+      "purpose": "شروع سرویس",
+      "example": "Start-Service Spooler",
+      "type": "PowerShell"
+    },
+    {
+      "name": "Stop-Service",
+      "purpose": "توقف سرویس",
+      "example": "Stop-Service Spooler",
+      "type": "PowerShell"
+    },
+    {
+      "name": "Set-ExecutionPolicy",
+      "purpose": "تغییر سطح دسترسی اجرای اسکریپت‌ها",
+      "example": "Set-ExecutionPolicy RemoteSigned",
+      "type": "PowerShell"
+    }
+  ]
+}
